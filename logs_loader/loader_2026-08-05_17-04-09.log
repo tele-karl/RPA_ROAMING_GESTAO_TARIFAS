@@ -1,0 +1,51 @@
+2026-08-05 17:04:09,561 - INFO - package: mysql.connector.plugins
+2026-08-05 17:04:09,562 - INFO - plugin_name: caching_sha2_password
+2026-08-05 17:04:09,562 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-08-05 17:04:09,563 - INFO - package: mysql.connector.plugins
+2026-08-05 17:04:09,563 - INFO - plugin_name: mysql_native_password
+2026-08-05 17:04:09,564 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-08-05 17:05:01,274 - INFO - package: mysql.connector.plugins
+2026-08-05 17:05:01,275 - INFO - plugin_name: mysql_native_password
+2026-08-05 17:05:01,275 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-08-05 17:10:01,490 - INFO - Iniciado verificação de PLMNs faltantes no XML de origem.
+2026-08-05 17:10:01,573 - INFO - Arquivo de rejeitados utilizado: F:\RPAs_FRONTEND\RPA_ROAMING_GESTAO_TARIFAS\data\saida\plmns_rejeitados_RATE_SEP26.txt
+2026-08-05 17:10:01,577 - INFO - [PLMN-FALTANTE] Detectado PLMN ausente no XML: AAZBX
+2026-08-05 17:10:01,748 - WARNING - [DOADOR] Nenhum match prefixo 'AAZ': usar MODELO
+2026-08-05 17:10:01,748 - ERROR - [ERRO] na função injetar_plmns_ausentes: processo deve ser 'Iniciado' ou 'Finalizado'.
+2026-08-05 17:10:01,843 - INFO - Iniciando verificação de serviços faltantes para PLMNs existentes.
+2026-08-05 17:10:02,239 - INFO - Filtro de tarifas aplicado ao doador PSEWM: {'IAIRTIME_000NNAT': 0, 'IAIRTIME_000NMTC': 0, 'IAIRTIME_000IHOME': 0, 'IAIRTIME_OUTROS': 0, 'ISMS_EVT': 0, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 120 linha(s)
+2026-08-05 17:10:02,246 - INFO - [SERVIÇOS] PSEWM: nenhum serviço faltante.
+2026-08-05 17:10:02,251 - INFO - Filtro de tarifas aplicado ao doador DZAWT: {'IAIRTIME_000NNAT': 0, 'IAIRTIME_000NMTC': 0, 'IAIRTIME_000IHOME': 0, 'IAIRTIME_OUTROS': 0, 'ISMS_EVT': 0, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 120 linha(s)
+2026-08-05 17:10:02,257 - INFO - [SERVIÇOS] DZAWT: nenhum serviço faltante.
+2026-08-05 17:10:02,263 - INFO - Filtro de tarifas aplicado ao doador GEOGC: {'IAIRTIME_000NNAT': 16, 'IAIRTIME_000NMTC': 8, 'IAIRTIME_000IHOME': 8, 'IAIRTIME_OUTROS': 48, 'ISMS_EVT': 4, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 204 linha(s)
+2026-08-05 17:10:02,268 - INFO - [SERVIÇOS] GEOGC: nenhum serviço faltante.
+2026-08-05 17:10:02,273 - INFO - Filtro de tarifas aplicado ao doador QATQT: {'IAIRTIME_000NNAT': 0, 'IAIRTIME_000NMTC': 0, 'IAIRTIME_000IHOME': 0, 'IAIRTIME_OUTROS': 0, 'ISMS_EVT': 0, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 120 linha(s)
+2026-08-05 17:10:02,279 - INFO - [SERVIÇOS] QATQT: nenhum serviço faltante.
+2026-08-05 17:10:02,283 - INFO - Filtro de tarifas aplicado ao doador VGBCC: {'IAIRTIME_000NNAT': 0, 'IAIRTIME_000NMTC': 0, 'IAIRTIME_000IHOME': 0, 'IAIRTIME_OUTROS': 0, 'ISMS_EVT': 4, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 124 linha(s)
+2026-08-05 17:10:02,288 - INFO - [SERVIÇOS] VGBCC: nenhum serviço faltante.
+2026-08-05 17:10:02,293 - INFO - Filtro de tarifas aplicado ao doador OMNNT: {'IAIRTIME_000NNAT': 0, 'IAIRTIME_000NMTC': 0, 'IAIRTIME_000IHOME': 0, 'IAIRTIME_OUTROS': 0, 'ISMS_EVT': 0, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 120 linha(s)
+2026-08-05 17:10:02,298 - INFO - [SERVIÇOS] OMNNT: nenhum serviço faltante.
+2026-08-05 17:10:02,304 - INFO - Filtro de tarifas aplicado ao doador JPNJP: {'IAIRTIME_000NNAT': 16, 'IAIRTIME_000NMTC': 8, 'IAIRTIME_000IHOME': 8, 'IAIRTIME_OUTROS': 48, 'ISMS_EVT': 4, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 204 linha(s)
+2026-08-05 17:10:02,311 - INFO - [SERVIÇOS] JPNJP: nenhum serviço faltante.
+2026-08-05 17:10:02,315 - INFO - Filtro de tarifas aplicado ao doador PSEK9: {'IAIRTIME_000NNAT': 0, 'IAIRTIME_000NMTC': 0, 'IAIRTIME_000IHOME': 0, 'IAIRTIME_OUTROS': 0, 'ISMS_EVT': 0, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 120 linha(s)
+2026-08-05 17:10:02,321 - INFO - [SERVIÇOS] PSEK9: nenhum serviço faltante.
+2026-08-05 17:10:02,321 - INFO - [SERVIÇOS] Nenhum serviço faltante encontrado.
+2026-08-05 17:10:02,499 - INFO - Linhas restantes após limpeza: 2198
+2026-08-05 17:10:02,722 - INFO - Tarifa IGPRSVOL atualizada para DZAWT: 0.00001
+2026-08-05 17:10:02,843 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para GEOGC: 0.385
+2026-08-05 17:10:02,938 - INFO - Tarifa IAIRTIME 000IHOME atualizada para GEOGC: 0.385
+2026-08-05 17:10:03,032 - INFO - Tarifa IAIRTIME 000NNAT atualizada para GEOGC: 0.385
+2026-08-05 17:10:03,141 - INFO - Tarifa IGPRSVOL atualizada para GEOGC: 0.00032
+2026-08-05 17:10:03,248 - INFO - Tarifa ISMS_EVT atualizada para GEOGC: 0.033
+2026-08-05 17:10:03,390 - INFO - Tarifa IAIRTIME 000NMTC atualizada para JPNJP: 0
+2026-08-05 17:10:03,467 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para JPNJP: 0.2
+2026-08-05 17:10:03,567 - INFO - Tarifa IAIRTIME 000IHOME atualizada para JPNJP: 0.2
+2026-08-05 17:10:03,646 - INFO - Tarifa IAIRTIME 000NNAT atualizada para JPNJP: 0.2
+2026-08-05 17:10:03,772 - INFO - Tarifa IGPRSVOL atualizada para JPNJP: 0.00024
+2026-08-05 17:10:03,877 - INFO - Tarifa ISMS_EVT atualizada para JPNJP: 0.03
+2026-08-05 17:10:04,317 - INFO - Tarifa IGPRSVOL atualizada para OMNNT: 0.00001
+2026-08-05 17:10:04,503 - INFO - Tarifa IGPRSVOL atualizada para PSEK9: 0.00001
+2026-08-05 17:10:04,663 - INFO - Tarifa IGPRSVOL atualizada para PSEWM: 0.00001
+2026-08-05 17:10:04,833 - INFO - Tarifa IGPRSVOL atualizada para QATQT: 0.00001
+2026-08-05 17:10:05,038 - INFO - Tarifa IGPRSVOL atualizada para VGBCC: 0.00007
+2026-08-05 17:10:05,134 - INFO - Tarifa ISMS_EVT atualizada para VGBCC: 0.007

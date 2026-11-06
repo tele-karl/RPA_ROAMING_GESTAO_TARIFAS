@@ -1,0 +1,133 @@
+2026-06-05 16:25:58,404 - INFO - package: mysql.connector.plugins
+2026-06-05 16:25:58,404 - INFO - plugin_name: caching_sha2_password
+2026-06-05 16:25:58,405 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-06-05 16:25:58,406 - INFO - package: mysql.connector.plugins
+2026-06-05 16:25:58,406 - INFO - plugin_name: mysql_native_password
+2026-06-05 16:25:58,407 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-06-05 16:26:51,068 - INFO - package: mysql.connector.plugins
+2026-06-05 16:26:51,068 - INFO - plugin_name: mysql_native_password
+2026-06-05 16:26:51,068 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-06-05 16:36:12,091 - INFO - Iniciado verificação de PLMNs faltantes no XML de origem.
+2026-06-05 16:36:12,191 - INFO - Arquivo de rejeitados utilizado: F:\RPAs_FRONTEND\RPA_ROAMING_GESTAO_TARIFAS\data\saida\plmns_rejeitados_RATE_JUL26.txt
+2026-06-05 16:36:12,285 - INFO - [PLMN-FALTANTE] Nenhum PLMN faltante encontrado.
+2026-06-05 16:36:12,286 - INFO - Iniciando verificação de serviços faltantes para PLMNs existentes.
+2026-06-05 16:36:12,777 - INFO - Filtro de tarifas aplicado ao doador EGYEM: {'IAIRTIME_000NNAT': 16, 'IAIRTIME_000NMTC': 8, 'IAIRTIME_000IHOME': 8, 'IAIRTIME_OUTROS': 48, 'ISMS_EVT': 4, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 204 linha(s)
+2026-06-05 16:36:12,811 - INFO - [SERVIÇOS] EGYEM: nenhum serviço faltante.
+2026-06-05 16:36:12,817 - INFO - Filtro de tarifas aplicado ao doador COLK9: {'IAIRTIME_000NNAT': 16, 'IAIRTIME_000NMTC': 8, 'IAIRTIME_000IHOME': 8, 'IAIRTIME_OUTROS': 48, 'ISMS_EVT': 4, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 204 linha(s)
+2026-06-05 16:36:12,832 - INFO - [SERVIÇOS] COLK9: nenhum serviço faltante.
+2026-06-05 16:36:12,836 - INFO - Filtro de tarifas aplicado ao doador BELKO: {'IAIRTIME_000NNAT': 0, 'IAIRTIME_000NMTC': 0, 'IAIRTIME_000IHOME': 0, 'IAIRTIME_OUTROS': 0, 'ISMS_EVT': 0, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 120 linha(s)
+2026-06-05 16:36:12,852 - INFO - [SERVIÇOS] BELKO: nenhum serviço faltante.
+2026-06-05 16:36:12,858 - INFO - Filtro de tarifas aplicado ao doador BOLK9: {'IAIRTIME_000NNAT': 16, 'IAIRTIME_000NMTC': 8, 'IAIRTIME_000IHOME': 8, 'IAIRTIME_OUTROS': 48, 'ISMS_EVT': 4, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 204 linha(s)
+2026-06-05 16:36:12,872 - INFO - [SERVIÇOS] BOLK9: nenhum serviço faltante.
+2026-06-05 16:36:12,878 - INFO - Filtro de tarifas aplicado ao doador COLK8: {'IAIRTIME_000NNAT': 16, 'IAIRTIME_000NMTC': 8, 'IAIRTIME_000IHOME': 8, 'IAIRTIME_OUTROS': 48, 'ISMS_EVT': 4, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 204 linha(s)
+2026-06-05 16:36:12,893 - INFO - [SERVIÇOS] COLK8: nenhum serviço faltante.
+2026-06-05 16:36:12,897 - INFO - Filtro de tarifas aplicado ao doador BELTN: {'IAIRTIME_000NNAT': 0, 'IAIRTIME_000NMTC': 0, 'IAIRTIME_000IHOME': 0, 'IAIRTIME_OUTROS': 0, 'ISMS_EVT': 0, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 120 linha(s)
+2026-06-05 16:36:12,910 - INFO - [SERVIÇOS] BELTN: nenhum serviço faltante.
+2026-06-05 16:36:12,916 - INFO - Filtro de tarifas aplicado ao doador SLVK8: {'IAIRTIME_000NNAT': 16, 'IAIRTIME_000NMTC': 8, 'IAIRTIME_000IHOME': 8, 'IAIRTIME_OUTROS': 48, 'ISMS_EVT': 4, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 204 linha(s)
+2026-06-05 16:36:12,931 - INFO - [SERVIÇOS] SLVK8: nenhum serviço faltante.
+2026-06-05 16:36:12,935 - INFO - Filtro de tarifas aplicado ao doador CHEDX: {'IAIRTIME_000NNAT': 0, 'IAIRTIME_000NMTC': 0, 'IAIRTIME_000IHOME': 0, 'IAIRTIME_OUTROS': 0, 'ISMS_EVT': 0, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 120 linha(s)
+2026-06-05 16:36:13,139 - INFO - Linhas restantes após limpeza: 6594
+2026-06-05 16:36:13,346 - INFO - Tarifa IAIRTIME 000IHOME atualizada para AFGEA: 0.17531
+2026-06-05 16:36:13,433 - INFO - Tarifa IAIRTIME 000NNAT atualizada para AFGEA: 0.17531
+2026-06-05 16:36:13,522 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para AFGEA: 0.17531
+2026-06-05 16:36:13,627 - INFO - Tarifa IGPRSVOL atualizada para AFGEA: 0.00001
+2026-06-05 16:36:13,718 - INFO - Tarifa ISMS_EVT atualizada para AFGEA: 0.02337
+2026-06-05 16:36:13,830 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para ARMOR: 0.234
+2026-06-05 16:36:13,924 - INFO - Tarifa IAIRTIME 000IHOME atualizada para ARMOR: 0.234
+2026-06-05 16:36:14,014 - INFO - Tarifa IAIRTIME 000NNAT atualizada para ARMOR: 0.234
+2026-06-05 16:36:14,134 - INFO - Tarifa IGPRSVOL atualizada para ARMOR: 0.00006
+2026-06-05 16:36:14,236 - INFO - Tarifa ISMS_EVT atualizada para ARMOR: 0.0117
+2026-06-05 16:36:14,412 - INFO - Tarifa IGPRSVOL atualizada para BELKO: 0.00024
+2026-06-05 16:36:14,611 - INFO - Tarifa IGPRSVOL atualizada para BELTN: 0.00024
+2026-06-05 16:36:14,760 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para BOLK9: 0.18
+2026-06-05 16:36:14,859 - INFO - Tarifa IAIRTIME 000IHOME atualizada para BOLK9: 0.1
+2026-06-05 16:36:14,948 - INFO - Tarifa IAIRTIME 000NNAT atualizada para BOLK9: 0.1
+2026-06-05 16:36:15,068 - INFO - Tarifa IGPRSVOL atualizada para BOLK9: 0.00015
+2026-06-05 16:36:15,169 - INFO - Tarifa ISMS_EVT atualizada para BOLK9: 0.005
+2026-06-05 16:36:15,295 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para BOLTE: 0.18
+2026-06-05 16:36:15,401 - INFO - Tarifa IAIRTIME 000IHOME atualizada para BOLTE: 0.1
+2026-06-05 16:36:15,496 - INFO - Tarifa IAIRTIME 000NNAT atualizada para BOLTE: 0.1
+2026-06-05 16:36:15,615 - INFO - Tarifa IGPRSVOL atualizada para BOLTE: 0.00015
+2026-06-05 16:36:15,711 - INFO - Tarifa ISMS_EVT atualizada para BOLTE: 0.005
+2026-06-05 16:36:15,872 - INFO - Tarifa IGPRSVOL atualizada para CHEDX: 0.00024
+2026-06-05 16:36:15,995 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para COLCO: 0.18
+2026-06-05 16:36:16,100 - INFO - Tarifa IAIRTIME 000IHOME atualizada para COLCO: 0.1
+2026-06-05 16:36:16,181 - INFO - Tarifa IAIRTIME 000NNAT atualizada para COLCO: 0.1
+2026-06-05 16:36:16,289 - INFO - Tarifa IGPRSVOL atualizada para COLCO: 0.00015
+2026-06-05 16:36:16,398 - INFO - Tarifa ISMS_EVT atualizada para COLCO: 0.005
+2026-06-05 16:36:16,524 - INFO - Tarifa IAIRTIME 000IHOME atualizada para COLK8: 0.1
+2026-06-05 16:36:16,601 - INFO - Tarifa IAIRTIME 000NNAT atualizada para COLK8: 0.1
+2026-06-05 16:36:16,688 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para COLK8: 0.18
+2026-06-05 16:36:16,809 - INFO - Tarifa IGPRSVOL atualizada para COLK8: 0.00015
+2026-06-05 16:36:16,915 - INFO - Tarifa ISMS_EVT atualizada para COLK8: 0.005
+2026-06-05 16:36:17,031 - INFO - Tarifa IAIRTIME 000IHOME atualizada para COLK9: 0.1
+2026-06-05 16:36:17,107 - INFO - Tarifa IAIRTIME 000NNAT atualizada para COLK9: 0.1
+2026-06-05 16:36:17,196 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para COLK9: 0.18
+2026-06-05 16:36:17,312 - INFO - Tarifa IGPRSVOL atualizada para COLK9: 0.00015
+2026-06-05 16:36:17,406 - INFO - Tarifa ISMS_EVT atualizada para COLK9: 0.005
+2026-06-05 16:36:17,515 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para COLTI: 0.18
+2026-06-05 16:36:17,616 - INFO - Tarifa IAIRTIME 000IHOME atualizada para COLTI: 0.1
+2026-06-05 16:36:17,705 - INFO - Tarifa IAIRTIME 000NNAT atualizada para COLTI: 0.1
+2026-06-05 16:36:17,829 - INFO - Tarifa IGPRSVOL atualizada para COLTI: 0.00015
+2026-06-05 16:36:17,924 - INFO - Tarifa ISMS_EVT atualizada para COLTI: 0.005
+2026-06-05 16:36:18,042 - INFO - Tarifa IAIRTIME 000IHOME atualizada para EGYEM: 0.17531
+2026-06-05 16:36:18,127 - INFO - Tarifa IAIRTIME 000NNAT atualizada para EGYEM: 0.17531
+2026-06-05 16:36:18,218 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para EGYEM: 0.17531
+2026-06-05 16:36:18,332 - INFO - Tarifa IGPRSVOL atualizada para EGYEM: 0.00001
+2026-06-05 16:36:18,437 - INFO - Tarifa ISMS_EVT atualizada para EGYEM: 0.02337
+2026-06-05 16:36:18,548 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para GTMCM: 0.18
+2026-06-05 16:36:18,656 - INFO - Tarifa IAIRTIME 000IHOME atualizada para GTMCM: 0.1
+2026-06-05 16:36:18,740 - INFO - Tarifa IAIRTIME 000NNAT atualizada para GTMCM: 0.1
+2026-06-05 16:36:18,864 - INFO - Tarifa IGPRSVOL atualizada para GTMCM: 0.00015
+2026-06-05 16:36:18,958 - INFO - Tarifa ISMS_EVT atualizada para GTMCM: 0.005
+2026-06-05 16:36:19,083 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para GTMK8: 0.18
+2026-06-05 16:36:19,189 - INFO - Tarifa IAIRTIME 000IHOME atualizada para GTMK8: 0.1
+2026-06-05 16:36:19,278 - INFO - Tarifa IAIRTIME 000NNAT atualizada para GTMK8: 0.1
+2026-06-05 16:36:19,390 - INFO - Tarifa IGPRSVOL atualizada para GTMK8: 0.00015
+2026-06-05 16:36:19,485 - INFO - Tarifa ISMS_EVT atualizada para GTMK8: 0.005
+2026-06-05 16:36:19,612 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para HND02: 0.18
+2026-06-05 16:36:19,715 - INFO - Tarifa IAIRTIME 000IHOME atualizada para HND02: 0.1
+2026-06-05 16:36:19,798 - INFO - Tarifa IAIRTIME 000NNAT atualizada para HND02: 0.1
+2026-06-05 16:36:19,921 - INFO - Tarifa IGPRSVOL atualizada para HND02: 0.00015
+2026-06-05 16:36:20,027 - INFO - Tarifa ISMS_EVT atualizada para HND02: 0.005
+2026-06-05 16:36:20,204 - INFO - Tarifa IGPRSVOL atualizada para ISR01: 0.00024
+2026-06-05 16:36:20,352 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para KAZKZ: 0.35
+2026-06-05 16:36:20,459 - INFO - Tarifa IAIRTIME 000IHOME atualizada para KAZKZ: 0.35
+2026-06-05 16:36:20,542 - INFO - Tarifa IAIRTIME 000NNAT atualizada para KAZKZ: 0.35
+2026-06-05 16:36:20,663 - INFO - Tarifa IGPRSVOL atualizada para KAZKZ: 0.00001
+2026-06-05 16:36:20,770 - INFO - Tarifa ISMS_EVT atualizada para KAZKZ: 0.01
+2026-06-05 16:36:20,894 - INFO - Tarifa IAIRTIME 000IHOME atualizada para NICMS: 0.1
+2026-06-05 16:36:20,977 - INFO - Tarifa IAIRTIME 000NNAT atualizada para NICMS: 0.1
+2026-06-05 16:36:21,058 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para NICMS: 0.18
+2026-06-05 16:36:21,171 - INFO - Tarifa IGPRSVOL atualizada para NICMS: 0.00015
+2026-06-05 16:36:21,330 - INFO - Tarifa ISMS_EVT atualizada para NICMS: 0.005
+2026-06-05 16:36:21,442 - INFO - Tarifa IAIRTIME 000IHOME atualizada para PAKUF: 0.17531
+2026-06-05 16:36:21,520 - INFO - Tarifa IAIRTIME 000NNAT atualizada para PAKUF: 0.17531
+2026-06-05 16:36:21,607 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para PAKUF: 0.17531
+2026-06-05 16:36:21,712 - INFO - Tarifa IGPRSVOL atualizada para PAKUF: 0.00001
+2026-06-05 16:36:21,820 - INFO - Tarifa ISMS_EVT atualizada para PAKUF: 0.02337
+2026-06-05 16:36:21,921 - INFO - Tarifa IAIRTIME 000IHOME atualizada para PANMS: 0.1
+2026-06-05 16:36:21,996 - INFO - Tarifa IAIRTIME 000NNAT atualizada para PANMS: 0.1
+2026-06-05 16:36:22,087 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para PANMS: 0.18
+2026-06-05 16:36:22,191 - INFO - Tarifa IGPRSVOL atualizada para PANMS: 0.00015
+2026-06-05 16:36:22,314 - INFO - Tarifa ISMS_EVT atualizada para PANMS: 0.005
+2026-06-05 16:36:22,425 - INFO - Tarifa IAIRTIME 000IHOME atualizada para SAUET: 0.11687
+2026-06-05 16:36:22,509 - INFO - Tarifa IAIRTIME 000NNAT atualizada para SAUET: 0.11687
+2026-06-05 16:36:22,597 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para SAUET: 0.70122
+2026-06-05 16:36:22,714 - INFO - Tarifa IGPRSVOL atualizada para SAUET: 0.00001
+2026-06-05 16:36:22,818 - INFO - Tarifa ISMS_EVT atualizada para SAUET: 0.02337
+2026-06-05 16:36:22,923 - INFO - Tarifa IAIRTIME 000IHOME atualizada para SAULB: 0.11687
+2026-06-05 16:36:22,999 - INFO - Tarifa IAIRTIME 000NNAT atualizada para SAULB: 0.11687
+2026-06-05 16:36:23,096 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para SAULB: 0.70122
+2026-06-05 16:36:23,204 - INFO - Tarifa IGPRSVOL atualizada para SAULB: 0.00001
+2026-06-05 16:36:23,308 - INFO - Tarifa ISMS_EVT atualizada para SAULB: 0.02337
+2026-06-05 16:36:23,420 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para SLVK8: 0.18
+2026-06-05 16:36:23,529 - INFO - Tarifa IAIRTIME 000IHOME atualizada para SLVK8: 0.1
+2026-06-05 16:36:23,622 - INFO - Tarifa IAIRTIME 000NNAT atualizada para SLVK8: 0.1
+2026-06-05 16:36:23,737 - INFO - Tarifa IGPRSVOL atualizada para SLVK8: 0.00015
+2026-06-05 16:36:23,832 - INFO - Tarifa ISMS_EVT atualizada para SLVK8: 0.005
+2026-06-05 16:36:23,961 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para SLVTM: 0.18
+2026-06-05 16:36:24,058 - INFO - Tarifa IAIRTIME 000IHOME atualizada para SLVTM: 0.1
+2026-06-05 16:36:24,155 - INFO - Tarifa IAIRTIME 000NNAT atualizada para SLVTM: 0.1
+2026-06-05 16:36:24,266 - INFO - Tarifa IGPRSVOL atualizada para SLVTM: 0.00015
+2026-06-05 16:36:24,369 - INFO - Tarifa ISMS_EVT atualizada para SLVTM: 0.005

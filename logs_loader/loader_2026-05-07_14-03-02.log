@@ -1,0 +1,46 @@
+2026-05-07 14:03:02,967 - INFO - package: mysql.connector.plugins
+2026-05-07 14:03:02,967 - INFO - plugin_name: caching_sha2_password
+2026-05-07 14:03:02,968 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-07 14:03:02,968 - INFO - package: mysql.connector.plugins
+2026-05-07 14:03:02,969 - INFO - plugin_name: mysql_native_password
+2026-05-07 14:03:02,970 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-07 14:03:41,719 - INFO - package: mysql.connector.plugins
+2026-05-07 14:03:41,719 - INFO - plugin_name: mysql_native_password
+2026-05-07 14:03:41,719 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-05-07 14:08:35,599 - INFO - Iniciado verificação de PLMNs faltantes no XML de origem.
+2026-05-07 14:08:35,706 - INFO - Arquivo de rejeitados utilizado: F:\RPAs_FRONTEND\RPA_ROAMING_GESTAO_TARIFAS\data\saida\plmns_rejeitados_RATE_JUN26.txt
+2026-05-07 14:08:35,808 - INFO - [PLMN-FALTANTE] Nenhum PLMN faltante encontrado.
+2026-05-07 14:08:35,809 - INFO - Iniciando verificação de serviços faltantes para PLMNs existentes.
+2026-05-07 14:08:36,232 - INFO - Filtro de tarifas aplicado ao doador LBNFL: {'IAIRTIME_000NNAT': 16, 'IAIRTIME_000NMTC': 8, 'IAIRTIME_000IHOME': 8, 'IAIRTIME_OUTROS': 48, 'ISMS_EVT': 4, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 204 linha(s)
+2026-05-07 14:08:36,240 - INFO - [SERVIÇOS] LBNFL: nenhum serviço faltante.
+2026-05-07 14:08:36,247 - INFO - Filtro de tarifas aplicado ao doador ISRK5: {'IAIRTIME_000NNAT': 16, 'IAIRTIME_000NMTC': 8, 'IAIRTIME_000IHOME': 8, 'IAIRTIME_OUTROS': 48, 'ISMS_EVT': 4, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 204 linha(s)
+2026-05-07 14:08:36,260 - INFO - [SERVIÇOS] ISRK5: nenhum serviço faltante.
+2026-05-07 14:08:36,267 - INFO - Filtro de tarifas aplicado ao doador DOM01: {'IAIRTIME_000NNAT': 16, 'IAIRTIME_000NMTC': 8, 'IAIRTIME_000IHOME': 8, 'IAIRTIME_OUTROS': 48, 'ISMS_EVT': 4, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 204 linha(s)
+2026-05-07 14:08:36,278 - INFO - [SERVIÇOS] DOM01: nenhum serviço faltante.
+2026-05-07 14:08:36,285 - INFO - Filtro de tarifas aplicado ao doador FRAF3: {'IAIRTIME_000NNAT': 16, 'IAIRTIME_000NMTC': 8, 'IAIRTIME_000IHOME': 8, 'IAIRTIME_OUTROS': 48, 'ISMS_EVT': 4, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 204 linha(s)
+2026-05-07 14:08:36,296 - INFO - [SERVIÇOS] FRAF3: nenhum serviço faltante.
+2026-05-07 14:08:36,301 - INFO - Filtro de tarifas aplicado ao doador CHLMV: {'IAIRTIME_000NNAT': 0, 'IAIRTIME_000NMTC': 0, 'IAIRTIME_000IHOME': 0, 'IAIRTIME_OUTROS': 0, 'ISMS_EVT': 0, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 120 linha(s)
+2026-05-07 14:08:36,314 - INFO - [SERVIÇOS] CHLMV: nenhum serviço faltante.
+2026-05-07 14:08:36,314 - INFO - [SERVIÇOS] Nenhum serviço faltante encontrado.
+2026-05-07 14:08:36,519 - INFO - Linhas restantes após limpeza: 1406
+2026-05-07 14:08:36,785 - INFO - Tarifa IGPRSVOL atualizada para CHLMV: 0.00015
+2026-05-07 14:08:36,981 - INFO - Tarifa IAIRTIME 000IHOME atualizada para DOM01: 0.1
+2026-05-07 14:08:37,081 - INFO - Tarifa IAIRTIME 000NNAT atualizada para DOM01: 0.1
+2026-05-07 14:08:37,192 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para DOM01: 0.1
+2026-05-07 14:08:37,325 - INFO - Tarifa IGPRSVOL atualizada para DOM01: 0.00001
+2026-05-07 14:08:37,450 - INFO - Tarifa ISMS_EVT atualizada para DOM01: 0.008
+2026-05-07 14:08:37,567 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para FRAF3: 0.077
+2026-05-07 14:08:37,682 - INFO - Tarifa IAIRTIME 000IHOME atualizada para FRAF3: 0.077
+2026-05-07 14:08:37,791 - INFO - Tarifa IAIRTIME 000NNAT atualizada para FRAF3: 0.077
+2026-05-07 14:08:37,931 - INFO - Tarifa IGPRSVOL atualizada para FRAF3: 0.00013
+2026-05-07 14:08:38,062 - INFO - Tarifa ISMS_EVT atualizada para FRAF3: 0.005
+2026-05-07 14:08:38,210 - INFO - Tarifa IAIRTIME 000IHOME atualizada para ISRK5: 0.1
+2026-05-07 14:08:38,314 - INFO - Tarifa IAIRTIME 000NNAT atualizada para ISRK5: 0.1
+2026-05-07 14:08:38,419 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para ISRK5: 0.1
+2026-05-07 14:08:38,559 - INFO - Tarifa IGPRSVOL atualizada para ISRK5: 0.00001
+2026-05-07 14:08:38,725 - INFO - Tarifa ISMS_EVT atualizada para ISRK5: 0.008
+2026-05-07 14:08:38,974 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para LBNFL: 0.5
+2026-05-07 14:08:39,095 - INFO - Tarifa IAIRTIME 000IHOME atualizada para LBNFL: 0.5
+2026-05-07 14:08:39,200 - INFO - Tarifa IAIRTIME 000NNAT atualizada para LBNFL: 0.5
+2026-05-07 14:08:39,364 - INFO - Tarifa IGPRSVOL atualizada para LBNFL: 0.00015
+2026-05-07 14:08:39,489 - INFO - Tarifa ISMS_EVT atualizada para LBNFL: 0.1

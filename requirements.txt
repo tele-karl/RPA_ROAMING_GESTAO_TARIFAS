@@ -1,0 +1,10 @@
+# Dependências do Projeto – RPA Roaming – Gestão de Tarifas (MVP1)
+
+pandas>=2.0.0
+openpyxl>=3.1.0
+lxml>=4.9.0
+mysql-connector-python>=8.0.33
+pyautogui>=0.9.53
+python-dotenv>=1.0.0
+selenium>=4.35.0
+pyperclip>=1.10.0

@@ -1,0 +1,6 @@
+2026-06-05 16:41:56,213 - INFO - package: mysql.connector.plugins
+2026-06-05 16:41:56,214 - INFO - plugin_name: caching_sha2_password
+2026-06-05 16:41:56,214 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-06-05 16:41:56,215 - INFO - package: mysql.connector.plugins
+2026-06-05 16:41:56,215 - INFO - plugin_name: mysql_native_password
+2026-06-05 16:41:56,217 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin

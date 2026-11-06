@@ -1,0 +1,10 @@
+2026-06-05 16:19:14,758 - INFO - package: mysql.connector.plugins
+2026-06-05 16:19:14,758 - INFO - plugin_name: caching_sha2_password
+2026-06-05 16:19:14,758 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-06-05 16:19:14,759 - INFO - package: mysql.connector.plugins
+2026-06-05 16:19:14,760 - INFO - plugin_name: mysql_native_password
+2026-06-05 16:19:14,761 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-06-05 16:20:07,978 - INFO - package: mysql.connector.plugins
+2026-06-05 16:20:07,978 - INFO - plugin_name: mysql_native_password
+2026-06-05 16:20:07,978 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-06-05 16:23:47,044 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/3da4f2019a2d068d4ba7620dfa9907b5

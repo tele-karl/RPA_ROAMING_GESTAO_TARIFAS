@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<jnlp
+        spec="1.0+"
+        codebase="https://roamingict.redecorp.br:14000"
+        >
+
+    
+        <information>
+            <title>Interconnect</title>
+            <description>Interconnect Client</description>
+            <vendor>CSG International</vendor>
+            
+                <homepage href="http://www.csgi.com"/>
+            
+                <icon href="images/logonew2_square.png"/>
+            
+        </information>
+    
+
+    <!-- Security settings for the application -->
+    <security>
+        <all-permissions />   <!-- full access to the client machine and local network -->
+    </security>
+
+    <!-- Check for updates and re-download if necessary -->
+    <update check="always" policy="always" />
+
+    
+        <resources>
+            
+                    <property name="jnlp.packEnabled" value="false" />
+                
+                <j2se version="1.8" jvmArgs="-Xmx64M"/>
+            
+                <jar href="lib/commons-httpclient.jar" download="true" />
+            
+                <jar href="lib/slf4j-log4j12.jar" download="true" />
+            
+                <jar href="lib/sso-crypto.jar" download="true" />
+            
+                <jar href="lib/spring-core.jar" download="true" />
+            
+                <jar href="lib/crypto.jar" download="true" />
+            
+                <jar href="lib/centralclient.jar" download="true" />
+            
+                <jar href="lib/jacorb.jar" download="true" />
+            
+                <jar href="lib/commons-logging.jar" download="true" />
+            
+                <jar href="lib/jacob.jar" download="true" />
+            
+                <jar href="lib/capi_idl.jar" download="true" />
+            
+                <jar href="lib/xml-writer.jar" download="true" />
+            
+                <jar href="lib/loader.jar" download="true" />
+            
+                <jar href="lib/spring-beans.jar" download="true" />
+            
+                <jar href="lib/TableLayout.jar" download="true" />
+            
+                <jar href="lib/orai18n.jar" download="true" />
+            
+                <jar href="lib/commons-codec.jar" download="true" />
+            
+                <jar href="lib/ictclient.jar" download="true" />
+            
+                <jar href="lib/images.jar" download="true" />
+            
+                <jar href="lib/help_2057_ict.jar" download="true" />
+            
+                <jar href="lib/spring-aop.jar" download="true" />
+            
+                <jar href="lib/spring-context.jar" download="true" />
+            
+                <jar href="lib/log4j.jar" download="true" />
+            
+                <jar href="lib/sec-sdk-corba.jar" download="true" />
+            
+                <jar href="lib/common.jar" download="true" />
+            
+                <jar href="lib/spring-client.jar" download="true" />
+            
+                <jar href="lib/sec-sdk-client.jar" download="true" />
+            
+                <jar href="lib/sec-sdk-client-remote.jar" download="true" />
+            
+                <jar href="lib/jdom.jar" download="true" />
+            
+                <jar href="lib/jRegistryKey.jar" download="true" />
+            
+                <jar href="lib/sso-server.jar" download="true" />
+            
+                <jar href="lib/sso-client.jar" download="true" />
+            
+                <jar href="lib/sec-sdk-client-transfer.jar" download="true" />
+            
+                <jar href="lib/ojdbc8.jar" download="true" />
+            
+                <jar href="lib/javassist.jar" download="true" />
+            
+                <jar href="lib/slf4j-api.jar" download="true" />
+            
+                <jar href="lib/spring-expression.jar" download="true" />
+            
+                <jar href="lib/language.jar" download="true" />
+            
+                <jar href="lib/sec-sdk-client-idl.jar" download="true" />
+            
+                <jar href="lib/jh.jar" download="true" />
+            
+                <extension name="help" href="/help-jnlp.do" />
+            
+                <extension name="other" href="/other-jnlp.do" />
+            
+        </resources>
+    
+        <resources os="Windows">
+            
+                <nativelib href="lib/jRegistryKeyDll.jar" />
+            
+        </resources>
+    
+        <application-desc main-class="com.intec.ict.client.StartICTClient">
+            
+                <argument>LANGUAGE=EN</argument>
+            
+                <argument>RMIPORT=14006</argument>
+            
+                <argument>WEBPORT=14013</argument>
+            
+                <argument>COUNTRY=ZA</argument>
+            
+                <argument>CHARSET=ISO-8859-15</argument>
+            
+                <argument>USERID=TBR00840</argument>
+            
+                <argument>SSL_ENABLE_SERVER_VERIFICATION=false</argument>
+            
+                <argument>RMIHOST=roamingict.redecorp.br</argument>
+            
+                <argument>WEBHOST=roamingict.redecorp.br</argument>
+            
+                <argument>TOKEN=   ===AMAC/bTZ9YR88QSIPuAqGvw5sHaSKwYQVmY3FEUQqf0rBMqx2E/c0JRwixRmdQQ4b1fRyIsdTAlh
+PZIwUEaL5Q7GnCR+OdTPPySfwtfpoKycNfnlc1DoFYk+vJdPbMB2gIIqf6F+8zJ/UG5u5SSw6W9H
+CTNwr0oKOBHwIjG8wLfR/Sq0s0dNhTcCOSqUVkk4pyJIJ3YKAzqYj4bVGFhbtcAod7t+Umr3MwYX
+ByY9cF0BhPqI1nUYTgeVR+mDLzg3mAcAEGRRewIy01ep4yIkyOM75PYAEApPJfPDRdGf0VBm9GnX
+vD0Q7pLL7J9W2yKGfc+NQxnI2RBL8T9cPPOhsgIVopeWVpho</argument>
+            
+        </application-desc>
+    
+</jnlp>

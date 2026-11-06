@@ -1,0 +1,22 @@
+2026-09-08 16:01:16,300 - INFO - package: mysql.connector.plugins
+2026-09-08 16:01:16,301 - INFO - plugin_name: caching_sha2_password
+2026-09-08 16:01:16,301 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-09-08 16:01:16,302 - INFO - package: mysql.connector.plugins
+2026-09-08 16:01:16,302 - INFO - plugin_name: mysql_native_password
+2026-09-08 16:01:16,303 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-09-08 16:01:26,243 - INFO - package: mysql.connector.plugins
+2026-09-08 16:01:26,244 - INFO - plugin_name: mysql_native_password
+2026-09-08 16:01:26,244 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-09-08 16:05:32,965 - INFO - Iniciado verificação de PLMNs faltantes no XML de origem.
+2026-09-08 16:05:33,050 - INFO - Arquivo de rejeitados utilizado: F:\RPAs_FRONTEND\RPA_ROAMING_GESTAO_TARIFAS\data\saida\plmns_rejeitados_RATE_OCT26.txt
+2026-09-08 16:05:33,125 - INFO - [PLMN-FALTANTE] Nenhum PLMN faltante encontrado.
+2026-09-08 16:05:33,125 - INFO - Iniciando verificação de serviços faltantes para PLMNs existentes.
+2026-09-08 16:05:33,484 - INFO - Filtro de tarifas aplicado ao doador SYCCW: {'IAIRTIME_000NNAT': 16, 'IAIRTIME_000NMTC': 0, 'IAIRTIME_000IHOME': 8, 'IAIRTIME_OUTROS': 48, 'ISMS_EVT': 4, 'IGPRSVOL': 52, 'ITOLLDUR': 68} -> mantendo 196 linha(s)
+2026-09-08 16:05:33,487 - INFO - [SERVIÇOS] SYCCW: nenhum serviço faltante.
+2026-09-08 16:05:33,487 - INFO - [SERVIÇOS] Nenhum serviço faltante encontrado.
+2026-09-08 16:05:33,651 - INFO - Linhas restantes após limpeza: 208
+2026-09-08 16:05:33,821 - INFO - Tarifa IAIRTIME 000IHOME atualizada para SYCCW: 0.399
+2026-09-08 16:05:33,906 - INFO - Tarifa IAIRTIME 000NNAT atualizada para SYCCW: 0.114
+2026-09-08 16:05:33,997 - INFO - Tarifa IAIRTIME (demais tiers) atualizada para SYCCW: 0.684
+2026-09-08 16:05:34,101 - INFO - Tarifa IGPRSVOL atualizada para SYCCW: 0.00001
+2026-09-08 16:05:34,204 - INFO - Tarifa ISMS_EVT atualizada para SYCCW: 0.0114
