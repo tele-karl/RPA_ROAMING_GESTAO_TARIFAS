@@ -1,4 +1,5 @@
 import os
+import sys
 import calendar
 import openpyxl
 from openpyxl.styles import Font, PatternFill
@@ -51,7 +52,10 @@ def criar_planilha_consolidada() -> str | None:
         ]
 
         if not arquivos_origem:
-            print("[WARN]", f"Nenhum .xlsx encontrado em {ORIGEM_DIR}. Usando 'hoje' como fallback.")
+            mensagem = f"Nenhum arquivo .xlsx válido encontrado em {ORIGEM_DIR} para construir a planilha consolidada. Processo encerrado."
+            print("[WARN]", mensagem)
+            registrar_log("Finalizado", "Erro", mensagem)
+            sys.exit(0)
 
         for nome in arquivos_origem:
             origem_path = os.path.join(ORIGEM_DIR, nome)

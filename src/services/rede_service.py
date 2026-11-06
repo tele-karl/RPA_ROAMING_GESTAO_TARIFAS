@@ -123,6 +123,8 @@ def copiar_arquivos_validos() -> None:
         os.makedirs(REDE_PROCESSADOS_DIR, exist_ok=True)
         os.makedirs(REDE_EXCEPCIONAIS_DIR, exist_ok=True)
 
+        arquivos_copiados = 0
+
         for arquivo in arquivos:
             caminho_origem = os.path.join(REDE_NOVOS_DIR, arquivo)
 
@@ -159,6 +161,7 @@ def copiar_arquivos_validos() -> None:
                 try:
                     # Copiar para o diretório local de origem do processamento
                     shutil.copy2(caminho_origem, destino_local)
+                    arquivos_copiados += 1
                     print("[INFO]", f"Cópia do arquivo {arquivo} realizada para {destino_local}")
                 except Exception as e:
                     print("[ERROR]", f"Falha na cópia para ORIGEM_DIR: {arquivo}: {e}")
@@ -172,6 +175,12 @@ def copiar_arquivos_validos() -> None:
             else:
                 print("[WARN]", f"Arquivo '{arquivo}' fora do critério D+30. Mantido no diretório de origem da rede." 
                     f"(Effective Date: {data_efetiva}).")
+
+        if arquivos_copiados == 0:
+            mensagem = f"Nenhum arquivo válido (critério D+30) encontrado para construção da planilha consolidada. Processo encerrado."
+            print("[WARN]", mensagem)
+            registrar_log("Finalizado", "Erro", mensagem)
+            sys.exit(0)
         
         registrar_log("Finalizado", "Sucesso", f"Arquivos copiados para {ORIGEM_DIR}")
 

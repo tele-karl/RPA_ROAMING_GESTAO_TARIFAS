@@ -45,8 +45,11 @@ def executar_fluxo_principal() -> None:
     try:
         copiar_arquivos_validos()  # Copiar/mover arquivos válidos da rede
         consolidado_path = criar_planilha_consolidada()   # Criar consolidada
+        if not consolidado_path:
+            registrar_log("Finalizado", "Erro", "Planilha consolidada não foi gerada. Encerrando.")
+            return
         # Carregar Pulseforce e processar planilhas 
-        if consolidado_path and os.path.exists(PULSEFORCE_FILE):
+        if os.path.exists(PULSEFORCE_FILE):
             tap_to_alias = carregar_pulseforce(PULSEFORCE_FILE)
             processar_planilhas(tap_to_alias)
             registrar_log("Finalizado", "Sucesso", f"ETAPA 1 concluída. Consolidação da planilha realizada.")
